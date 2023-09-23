@@ -1,0 +1,286 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    max-width: 100%;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    font-family: Arial;
+}
+.cabecalho{
+    max-width: 100%;
+    max-height: 15vh;
+    background-color: #BE3144;
+    display: flex;
+    justify-content: end;
+    font-size: 1.1rem;
+}
+.menu{
+    display: flex;
+    text-decoration: none;
+}
+.menu1{
+    display: flex;
+    text-decoration: none;
+}
+.menu1, nav, ul, li, a{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+a.links:hover{
+    background-color: aliceblue;
+}
+
+.intro{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: #f0f0f0;
+    
+}
+
+.aumento1{
+    font-size: 2.2rem;
+}
+
+p{
+    color: #BE3144;
+}
+
+.p1{
+    color: white;
+}
+
+.conteudo{
+    width: 100%;
+    height: 190vh;
+    background-color: #45567D;
+    align-items: center;
+    text-align: center;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.conteudo-principal-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.cards{
+    width: calc(33.33% - 20px);
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease-out;
+    box-shadow: 7px 7px 13px 0 blue;
+}
+
+.btn1{
+    width: 100%;
+    border-radius: 35px;
+}
+
+.image{
+    padding: 15px;
+}
+
+.image2{
+    padding: 15px;
+}
+
+.cards:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.cards p{
+    color: white;
+    font-size: 19px;
+}
+
+.cards h1{
+    text-align: center;
+    color: white;
+}
+
+
+.titulo{
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.1rem solid white;
+ 
+}
+
+h2{
+    color: white;
+    font-size: 2.2rem;
+}
+
+
+.p{
+    height: 215px;
+}
+
+.conteudo-secundario{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+
+.img{
+    width: 128px;
+    height: 128px;
+    padding: 25px;
+}
+
+
+.redes-principal{
+    max-width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.conteudo2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 6rem;
+}
+
+.redes-social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    margin-left: 55px;
+
+
+}
+.p2{
+    margin: 0;
+    padding: 0;
+    margin-right: 35px;
+}
+
+.img1{
+    width: 5%;
+    margin-left: 55px;
+}
+
+.p-novo{
+    font-size: 1.1rem;
+}
+
+
+.um{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    font-size: 1.4rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+}
+
+.p2{
+    color: white;
+}
+
+
+.dois{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    font-size: 1.4rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+}
+
+
+.tres{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    font-size: 1.4rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+}
+
+.um:hover{
+    transform: translateY(8px);
+    cursor: pointer;
+}
+
+.dois:hover{
+    transform: translateY(8px);
+    cursor: pointer;
+}
+
+.tres:hover{
+    transform: translateY(8px);
+    cursor: pointer;
+}
+
+footer{
+    font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background: var(--main-gray);
+    border-top: 4px solid var(--main-red);
+}
+  
+footer > p {
+    margin: 2rem;
+}
+  
+
+.p3{
+    display: flex;
+    justify-content: end;
+    color: white;
+}
+
+hr{
+    max-width: 100%;
+}
+
